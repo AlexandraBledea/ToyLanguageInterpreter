@@ -6,7 +6,7 @@
 # Used Concepts
 - Layered architecture
 - JavaFX for GUI
-- Inheritance, encapsulation, interfaces, streams
+- Encapsulation, interfaces, streams
 - MVC pattern
 
 ---
