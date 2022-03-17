@@ -12,16 +12,16 @@
 ---
 
 # Instructions:
-- variable declaration & assignment
-- if
-- while
-- fork (multi-threading)
-- file opening, closing and reading
-- printing
-- heap allocation, reading and writing
 - logical expressions
 - arithmetical expressions
 - relational expressions
+- variable declaration & assignment
+- printing
+- if
+- while
+- file opening, closing and reading
+- fork (multi-threading)
+- heap allocation, reading and writing
 
 ---
 
@@ -36,11 +36,11 @@
 # Functionalities
 - Storing instructions in execution stacks
 - Storing local variables in symbol tables
-- Storing BufferedReader objects into a file table for file operations
-- Shared heap across all the states created by a program - allocation, reading, writing, garbage collector
+- Storing BufferedReader objects into a file table used for file operations
+- Shared heap across all the states created by a program - allocation, reading, writing and garbage collector
 - Storing printing output in an output table
-- Upon forking, a new program state with a unique ID is being created
-- Program states: each state has an ID, a symbol table and an execution stack
+- While forking, a new program state is being created with a unique ID 
+- Program states: each state has a unique ID, a symbol table and an execution stack
 
 ---
 
